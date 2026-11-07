@@ -1,0 +1,33 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+runtime/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Node / frontend / contracts
+node_modules/
+frontend/dist/
+contracts/artifacts/
+contracts/cache/
+contracts/coverage/
+
+# Future model artifacts and independent data experiments
+ml/artifacts/
+data_local/
+
+# Editors and operating systems
+.idea/
+.DS_Store
+Thumbs.db
+~$*.docx
+*.log
